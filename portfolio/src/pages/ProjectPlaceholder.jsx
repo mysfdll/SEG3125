@@ -30,6 +30,17 @@ function ProjectPlaceholder() {
           <h1 className="section-title">{project.title}</h1>
           <span className="badge status-badge mb-4">{project.status}</span>
           <p className="section-copy">{project.description}</p>
+          {project.liveUrl && (
+            <a
+              className="btn btn-primary mt-3 me-3"
+              href={project.liveUrl}
+              target="_blank"
+              rel="noreferrer"
+              aria-label={`Visit ${project.title} website`}
+            >
+              Visit Website
+            </a>
+          )}
           <Link className="btn btn-primary mt-3" to="/">
             Return to Homepage
           </Link>

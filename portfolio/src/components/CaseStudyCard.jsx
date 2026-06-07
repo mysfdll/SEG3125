@@ -2,6 +2,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 function CaseStudyCard({ project }) {
+  const buttonText = project.liveUrl ? 'Visit Website' : 'View Project';
+
   return (
     <article className="card case-card h-100">
       <div className="case-visual" aria-hidden="true">
@@ -13,13 +15,25 @@ function CaseStudyCard({ project }) {
           <span className="badge status-badge">{project.status}</span>
         </div>
         <p className="card-text flex-grow-1">{project.description}</p>
-        <Link
-          className="btn btn-outline-primary mt-3"
-          to={project.route}
-          aria-label={`View ${project.title} project`}
-        >
-          View Project
-        </Link>
+        {project.liveUrl ? (
+          <a
+            className="btn btn-outline-primary mt-3"
+            href={project.liveUrl}
+            target="_blank"
+            rel="noreferrer"
+            aria-label={`Visit ${project.title} website`}
+          >
+            {buttonText}
+          </a>
+        ) : (
+          <Link
+            className="btn btn-outline-primary mt-3"
+            to={project.route}
+            aria-label={`View ${project.title} project`}
+          >
+            {buttonText}
+          </Link>
+        )}
       </div>
     </article>
   );

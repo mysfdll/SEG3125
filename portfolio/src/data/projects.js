@@ -1,11 +1,12 @@
 const projects = [
   {
     id: 'service-website',
-    title: 'Service Website',
+    title: 'mysfdl cuts',
     description:
-      'A service-based website design, such as a dentist, bike repair, or hairdresser site.',
+      'A barbershop service website designed to present services, pricing, location details, and booking information clearly.',
     route: '/projects/service-website',
-    status: 'Coming Soon',
+    liveUrl: 'https://mysfdl-cuts.netlify.app/',
+    status: 'Live',
     type: 'Service Design'
   },
   {
