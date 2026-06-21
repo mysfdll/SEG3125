@@ -1,0 +1,34 @@
+# macOS system files
+.DS_Store
+
+# Dependencies
+node_modules/
+portfolio/node_modules/
+
+# Build outputs
+dist/
+portfolio/dist/
+build/
+portfolio/build/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+portfolio/.env
+portfolio/.env.local
+portfolio/.env.*.local
+
+# Package manager debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor and IDE folders
+.vscode/
+.idea/
+
+# Vite cache and temporary files
+.vite/
+portfolio/.vite/

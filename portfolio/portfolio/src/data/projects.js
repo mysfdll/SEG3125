@@ -1,12 +1,11 @@
 const projects = [
   {
     id: 'service-website',
-    title: 'mysfdl cuts',
+    title: 'Service Website',
     description:
-      'A barbershop service website designed to present services, pricing, location details, and booking information clearly.',
+      'A service-based website design, such as a dentist, bike repair, or hairdresser site.',
     route: '/projects/service-website',
-    liveUrl: 'https://mysfdl-cuts.netlify.app/',
-    status: 'Live',
+    status: 'Coming Soon',
     type: 'Service Design'
   },
   {
@@ -14,8 +13,7 @@ const projects = [
     title: 'Memory Game',
     description: 'An interactive memory game project.',
     route: '/projects/memory-game',
-    liveUrl: 'https://mysfdl-match.netlify.app/',
-    status: 'Live',
+    status: 'Coming Soon',
     type: 'Interactive UI'
   },
   {
