@@ -24,7 +24,8 @@ const projects = [
     description:
       'An online store interface with product browsing and purchasing flow.',
     route: '/projects/ecommerce-website',
-    status: 'Coming Soon',
+    liveUrl: 'https://mysfdl-tech.netlify.app/',
+    status: 'Live',
     type: 'E-commerce'
   },
   {
