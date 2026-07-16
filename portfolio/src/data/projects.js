@@ -3,7 +3,7 @@ const projects = [
     id: 'service-website',
     title: 'mysfdl cuts',
     description:
-      'A barbershop service website designed to present services, pricing, location details, and booking information clearly.',
+      'A modern barber shop website where users can view services, check store information, and book an appointment online.',
     route: '/projects/service-website',
     liveUrl: 'https://mysfdl-cuts.netlify.app/',
     status: 'Live',
@@ -11,8 +11,9 @@ const projects = [
   },
   {
     id: 'memory-game',
-    title: 'Memory Game',
-    description: 'An interactive memory game project.',
+    title: 'Memory Match',
+    description:
+      'An interactive card matching game where users choose a difficulty level and theme, then match pairs while tracking their time and moves.',
     route: '/projects/memory-game',
     liveUrl: 'https://mysfdl-match.netlify.app/',
     status: 'Live',
@@ -20,9 +21,9 @@ const projects = [
   },
   {
     id: 'ecommerce-website',
-    title: 'E-commerce Website',
+    title: 'mysfdl tech',
     description:
-      'An online store interface with product browsing and purchasing flow.',
+      'A tech accessories store where users can filter products, add items to a cart, complete checkout, and submit feedback.',
     route: '/projects/ecommerce-website',
     liveUrl: 'https://mysfdl-tech.netlify.app/',
     status: 'Live',
@@ -30,11 +31,12 @@ const projects = [
   },
   {
     id: 'analytics-dashboard',
-    title: 'Analytics Dashboard',
+    title: 'mysfdl Study Dashboard',
     description:
-      'An analytics or visualization interface for presenting data clearly.',
+      'A bilingual interactive dashboard that visualizes synthetic student productivity data through charts, filters, and language switching.',
     route: '/projects/analytics-dashboard',
-    status: 'Coming Soon',
+    liveUrl: 'https://mysfdl-dashboard.netlify.app/',
+    status: 'Live',
     type: 'Dashboard'
   }
 ];
